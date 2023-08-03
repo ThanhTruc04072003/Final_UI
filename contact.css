@@ -1,0 +1,73 @@
+.input-form {
+    background-color: #735449;
+    border-radius: 6px;
+}
+
+.input-form input {
+    background: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    padding-left: 0;
+    color: #fff !important;
+}
+
+
+.input-form textarea {
+    background: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    padding-left: 0;
+    color: #fff !important;
+    resize: none;
+}
+
+.input-form > div > form {
+    padding: 0 !important;
+}
+input::placeholder, textarea::placeholder {
+  text-align: left;
+  color: #fff !important;
+}
+.form-control:focus {
+    color: #fff;
+    background-color: #735449;
+    outline: 0;
+    box-shadow: none
+}
+.button-send {
+    background: none;
+    border-color: #fff;
+    border-radius: 8px;
+}
+
+.bs-icon-md {
+    width: 100px;
+    height: 100px;
+    background-color: #735449;
+    border-radius: 50%;
+}
+
+.container.position-relative {
+    margin-bottom: 60px;
+}
+.header {
+    background-image: url(../../img/bg_contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+}
+.d-flex.align-items-center.p-3 {
+    text-align: initial;
+}
+
+.col-12.col-md-6.col-lg-5.col-xl-4.input-form {
+    margin-top: 20px;
+}
+.px-2 {
+    margin-left: 15px;
+}

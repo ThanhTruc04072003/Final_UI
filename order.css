@@ -1,0 +1,96 @@
+.best-seller .food-info{
+    background: none;
+    justify-content: right;
+}
+
+.best-seller .food-info .img-fluid {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.text-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.text-title > h2 {
+    font-size: 50px;
+}
+
+.text-title > p {
+    font-size: 28px;
+}
+.row.name-table {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.text-sub-food p {
+    max-width: 250px;
+}
+.row.detail-order {
+    height: 100%;
+    align-items: center;
+}
+.price-order {
+    min-width: 720px;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 70px;
+
+}
+
+.count {
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.14);
+    border-radius: 12px;
+}
+.button-update {background-color: rgba(255, 255, 255, 0.14);border: none;}
+
+.row.group-button {justify-content: right;}
+
+.button-update:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.btn-checkout {
+    white-space: nowrap;
+}
+
+.cart-total {
+    width: 40%;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.cart-total > .col-12 > .row {
+    justify-content: right;
+}
+
+.col-7.cart-total-table {
+    margin-bottom: 50px;
+}
+@media (max-width:940px){
+    .cart-total{
+        width: 70%;
+    }
+}
+@media (max-width:620px){
+    .cart-total{
+        width: 100%;
+    }
+    .best-seller .food-info .img-fluid {
+        display: none;
+
+    }
+    .best-seller .food {
+        text-align: left;
+    }
+}
+a {
+    color: white;
+}

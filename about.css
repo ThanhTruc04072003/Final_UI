@@ -1,0 +1,117 @@
+img.restaurant {
+    width: 100%;
+    margin-bottom: 100px;
+}
+img.img-kitchen {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+.row.class2 > div:first-child {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.row.class2 > div:last-child{
+    padding: 0 20px;
+}
+hr{
+    background-color: #fff;
+}
+.card {
+    background: none;
+    border: none;
+}
+
+.card-body{
+    padding: 0;
+}
+p.card-text {
+    font-size: 20px;
+}
+
+p.card-title {
+    font-size: 22px;
+}
+.team{
+    padding: 0 30px;
+}
+
+.about .container h2 {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.row.class3 {
+    text-align: initial;
+}
+
+img.img-kitchen {
+    margin-top: 120px;
+}
+img.restaurant {
+    width: 85%;
+    margin-bottom: 50px;
+}
+img.img-kitchen {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+.row.class2 > div:first-child {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.row.class2 > div:last-child{
+    padding: 0 20px;
+}
+hr{
+    background-color: #fff;
+}
+.card {
+    background: none;
+    border: none;
+}
+
+.card-body{
+    padding: 0;
+}
+p.card-text {
+    font-size: 20px;
+}
+
+p.card-title {
+    font-size: 22px;
+}
+.team{
+    padding: 0 30px;
+    text-align: initial;
+}
+
+.about .container h2 {
+    text-align: center;
+    margin-bottom: 75px;
+    margin-top: 20px;
+}
+.row.class3 {
+    text-align: initial;
+    /* margin-left: 110px; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+
+img.img-kitchen {
+    margin-top: 120px;
+    margin-left: 10px;
+}
+.row.class1 {
+    text-align: initial;
+    /* display: flex; */
+    justify-content: space-evenly;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
