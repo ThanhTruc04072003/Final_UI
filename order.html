@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Odibee+Sans&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/07dae2129b.js" crossorigin="anonymous"></script>
+    <link href="./vendor/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./vendor/css/food.css" />
+    <link rel="stylesheet" href="vendor/css/order.css" />
+    <title>BESIU Restaurant</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar top-header navbar-expand-lg navbar-light">
+            <a class="navbar-brand frame-logo" href="./index.html"><img src="./img/logo.png" alt="" srcset="" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-column" id="navbarNav">
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="food.html">FOOD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="icon-group">
+                            <a class="nav-icon" href="#">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a class="nav-icon" href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="best-seller">
+        <div class="container">
+            <div class="text-title">
+                <h2>ORDER</h2>
+                <p>Fill this form to confirm your order</p>
+            </div>
+            <div class="price-order">
+                <div class="row name-table">
+                    <div class="col-6">Product</div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-4">Price</div>
+                            <div class="col-4">Quantity</div>
+                            <div class="col-4">Subtotal</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row food">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-6 food">
+                                <a href="#" class="food-info">
+                                    <img src="./img/tirsmisu.jpg" alt="" class="img-fluid" />
+                                    <div class="text-food">
+                                        <div class="text-sub-food">
+                                            <p>TIRAMISU</p>
+                                            <p><i>Fabulous Italian Dessert</i></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <div class="row detail-order">
+                                    <div class="col-4">$ 5</div>
+                                    <div class="col-4" ><div class="count">1</div> </div>
+                                    <div class="col-4">$ 5</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row food">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-6 food">
+                                <a href="#" class="food-info">
+                                    <img src="./img/food-menu-1-150x150.jpg" alt="" class="img-fluid" />
+                                    <div class="text-food">
+                                        <div class="text-sub-food">
+                                            <p>TOMATO BRUSCHETTA</p>
+                                            <p><i>Tomatoes, Olive Oil, Cheese</i></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <div class="row detail-order">
+                                    <div class="col-4">$ 5</div>
+                                    <div class="col-4"><div class="count">2</div></div>
+                                    <div class="col-4">$ 10</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row group-button">
+                    <div class="col-3">
+                        <button type="button" class="button-update btn btn-primary">Update Order </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-total">
+                <div class="col-7 cart-total-table">
+                    <h3>CART TOTALS</h3>
+                    <div class="row sub-total">
+                        <div class="col-6">Subtotal</div>
+                        <div class="col-6">$ 15</div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                            <button type="button" class="col-6 button-update btn-chekout btn btn-primary" ><a href="contact.html">Proceed to checkout</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <h2>BESIU Restaurant</h2>
+                            <p>Enjoy your way</p>
+                            <div class="social-logo">
+                                <a href="#"><img src="./icon/social-icon/facebook.svg" alt="" /></a>
+                                <a href="#"><img src="./icon/social-icon/youtube.svg" alt="" /></a>
+                                <a href="#"><img src="./icon/social-icon/instagram.svg" alt="" /></a>
+                                <a href="#"><img src="./icon/social-icon/twitter.svg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <h2>Company</h2>
+                            <p>40 Park Ave, Brooklyn, New York</p>
+                            <p>1-800-111-2222</p>
+                            <p>contact@example.com</p>
+                        </div>
+                        <div class="col-12 col-lg-4 class2">
+                            <p>Monday - Friday: 9AM - 9PM</p>
+                            <p>Saturday: 9AM - 11PM</p>
+                            <p>Sunday: 9AM - 11PM</p>
+                            <p>Happy Hours: 9AM - 12AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./vendor/jquery/jquery.slim.min.js"></script>
+<script src="./vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
